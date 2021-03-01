@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Introly</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <div class="announcement-bar"></div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">Introly</a>
+            <button class="blue-button ml-auto mr-1">Sign Up</button>
+        </nav>
+        <div class="hero">
+            <div class="container-fluid" style="font-size: 2.2rem; font-weight: 600">
+                <div class="header">The easiest way to get <span class="gradient-text-b-to-o">introductions</span> from your network</div>
+                <button class="blue-button">Sign Up</button>
+            </div>
+        </div>
+        <section>
+            <div class="banner">
+                <div class="banner-text">
+                    Getting intros is hard. Save <span class="gradient-text-o-to-o">13+ hours</span> by directly accessing your intro maker’s network.
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="landing-section" style="display: flex; flex-direction: column; align-items: center;">
+                <div class="section-header">
+                    Introductions Unlock The Greatest Deals.
+                </div>
+                <div class="section-row" style="width: 750px; padding-top: 40px; display: flex;">
+                    <div class="icon-column">
+                        <div style="background-image: url('assets/images/glasses.svg'); height: 80px; width: 80px; background-size: contain;"></div>
+                        <div class="icon-column-subtitle">Visibility</div>
+                        <div class="icon-column-description">See all your intro maker’s contacts.</div>
+                    </div>
+                    <div class="icon-column">
+                        <div style="background-image: url('assets/images/hopper.svg'); height: 80px; width: 80px; background-size: contain;"></div>
+                        <div class="icon-column-subtitle">Filtering</div>
+                        <div class="icon-column-description">Pick the contacts that fit right into your profile.</div>
+                    </div>
+                    <div class="icon-column">
+                        <div style="background-image: url('assets/images/dashboard.svg'); height: 80px; width: 80px; background-size: contain;"></div>
+                        <div class="icon-column-subtitle">Tracking</div>
+                        <div class="icon-column-description">Track the status of each intro.</div>
+                    </div>
+                </div>
+                <div class="section-row" style="padding-top: 40px; padding-bottom: 40px;">
+                    <div style="background-image: url(assets/images/message-flow.svg); height: 100%; width: 100%; background-size: contain; background-repeat: no-repeat; background-position: center;"
+                    >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="landing-section-minor" style="background-color:#1500ff07;">
+                <div>
+                    <div class="bad-section">
+                        <div class="section-header-minor">
+                            Typically, only a fraction of a network is activated.
+                        </div>
+                        <div class="section-row" style="width: 750px; padding-top: 80px;">
+                            <div style="display: flex; flex-direction: column; width: 400px; height: 600px">
+                                <span style="padding-bottom: 60px; font-size: 1.5rem; font-weight: 500">Without Introly</span>
+                                <span style="padding-bottom: 60px">
+                                    <span style="font-size: 1.75rem;  font-weight: 500; color: #E75B10">Intro Seeker: Jane</span></br>
+                                    Jane knows her target profile very well but does not know her investor’s network at all.
+                                </span>
+                                <span style="padding-bottom: 60px">
+                                    <span style="font-size: 1.75rem;  font-weight: 500; color: #E75B10">Intro Seeker: Investor Jon</span></br>
+                                    Jon has no idea what Jane’s target profile is. He ends up only making a handful of mediocre intros from the top of his mind.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="good-section" style="display: none;">
+                        <div class="section-header-minor">
+                            Unlock your networks full potential with B2.
+                        </div>
+                        <div class="section-row" style="width: 750px; padding-top: 80px;">
+                            <div style="display: flex; flex-direction: column; width: 400px; height: 600px">
+                                <span style="padding-bottom: 60px; font-size: 1.5rem; font-weight: 500">With Introly</span>
+                                <span style="padding-bottom: 60px">
+                                    <span style="font-size: 1.75rem;  font-weight: 500; color: #E75B10">Intro Seeker: Jane</span></br>
+                                    Jane accesses Jon's LinkedIn network to filter for relevant profiles and make specific intro requests.
+                                </span>
+                                <span style="padding-bottom: 60px">
+                                    <span style="font-size: 1.75rem;  font-weight: 500; color: #E75B10">Intro Seeker: Investor Jon</span></br>
+                                    Jon only needs to go through the shortlist and click on a single button to make an intro. No tedious searching through his network.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; height: 75px; margin: 0 auto; width: 200px; padding-bottom: 60px;">
+                        <span style="font-size: 1.25rem; padding-right: 10px; font-weight: 600; color: #1E167A">Toggle Introly</span>
+                        <label class="switch">
+                            <input type="checkbox" onclick="switchSection()">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="landing-section-major">
+                <div class="section-header">How It Works</div>
+                <div class="section-row" style="height: 500px">
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="width: 550px; display: flex; flex-direction: column;">
+                            <span style="color: #E75B10; font-weight: 600; font-size: 1.5rem; line-height: 2.5;">STEP 1</span>
+                            <span style="color: #1E167A; font-weight: 600; font-size: 1.75rem; line-height: 2.5;">Connect Your LinkedIn Account</span>
+                            <span style="color: #0D2C48; font-size: 1.25rem; padding-bottom: 15px;">After connecting your LinkedIn account, you will get access to all connections of your intro maker(s) with detailed data about company size, funding stage, etc.</span>
+                            <button class="blue-button">Sign Up</button>
+                        </div>
+                    </div>
+                    <div style="background-image: url('assets/images/connect-linkedin.svg'); height: 500px; width: 500px; background-size: cover; background-repeat: no-repeat"></div>
+                </div>
+                <div class="section-row" style="justify-content: space-between; height: 500px">
+                    <div style="background-image: url('assets/images/filter-and-marking.svg'); height: 600px; width: 550px; background-size: cover; top: -150px; position: relative; background-repeat: no-repeat"></div>
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="width: 550px; display: flex; flex-direction: column;">
+                            <span style="color: #E75B10; font-weight: 600; font-size: 1.5rem; line-height: 2.5;">STEP 2</span>
+                            <span style="color: #1E167A; font-weight: 600; font-size: 1.75rem; line-height: 2.5;">Filter and Mark Profiles</span>
+                            <span style="color: #0D2C48; font-size: 1.25rem; padding-bottom: 15px;">Pre-filter your intro maker’s connections and mark relevant profiles for intro requests.</span>
+                            <button class="blue-button">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-row" style="justify-content: space-between; height: 500px">
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="width: 550px; display: flex; flex-direction: column;">
+                            <span style="color: #E75B10; font-weight: 600; font-size: 1.5rem; line-height: 2.5;">STEP 3</span>
+                            <span style="color: #1E167A; font-weight: 600; font-size: 1.75rem; line-height: 2.5;">Track Intros and Updates</span>
+                            <span style="color: #0D2C48; font-size: 1.25rem; padding-bottom: 15px;">Your intro maker sees your intro requests and automatically updates you on their actions.</span>
+                            <button class="blue-button">Sign Up</button>
+                        </div>
+                    </div>
+                    <div style="background-image: url('assets/images/integrations.svg');width: 100%; background-size: 90%; background-repeat: no-repeat"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="banner">
+                <div class="banner-text-no-background">
+                    Which intros will you get?
+                </div>
+                <span style="font-size: 1.25rem; padding-bottom: 20px">
+                    Unlock your network!
+                </span>
+                <button class="blue-button">Sign Up</button>
+            </div>
+        </section>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="assets/scripts/custom.js"></script>
+    </body>
+</html>
