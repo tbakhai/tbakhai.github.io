@@ -15,9 +15,11 @@
     </head>
     <body>
         <div class="announcement-bar"></div>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" width="100px" height="40px"></a>
-            <button class="blue-button ml-auto mr-1">Sign Up</button>
+        <nav class="navbar navbar-expand-lg fixed-top outer" style="width: 100%">
+            <nav class="navbar navbar-expand-lg fixed-top" style="max-width: 1440px">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" width="100px" height="40px"></a>
+                <button class="blue-button ml-auto mr-1">Sign Up</button>
+            </nav>
         </nav>
         <div class="hero">
             <div class="container-fluid" style="font-size: 2.2rem; font-weight: 600">
@@ -63,7 +65,7 @@
         </section>
         <section>
             <div class="landing-section-minor" style="background-color:#1500ff07;">
-                <div>
+                <div style="position: relative">
                     <div class="bad-section">
                         <div class="section-header-minor">
                             Typically, only a fraction of a network is activated.
@@ -82,7 +84,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="good-section" style="display: none;">
+                    <div class="good-section" style="visibility: hidden; position: absolute; top: 0">
                         <div class="section-header-minor">
                             Unlock your networks full potential with Introly.
                         </div>
