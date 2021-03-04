@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    padding: 10px 150px 0px 150px;
+    padding: 10px 170px 0px 170px;
     max-width: 1440px;
     height: 80px;
     margin: 0 auto;
@@ -36,7 +36,7 @@
     top: 0px;
     left: 0px;
     background-size: 100%;
-    padding: 0px 150px;
+    padding: 0px 170px;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -114,7 +114,7 @@
 .landing-section {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px 150px;
+    padding: 0px 170px;
     height: 800px;
 }
 
@@ -127,7 +127,7 @@
 .landing-section-major {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px 150px;
+    padding: 0px 170px;
     height: 1700px;
 }
 
@@ -248,7 +248,7 @@ input:checked + .slider:before {
     height: 700px;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px 150px;
+    padding: 0px 170px;
     background-image: url('../images/bad-connected-graph.svg');
     background-repeat: no-repeat;
     background-position: 700px;
@@ -259,7 +259,7 @@ input:checked + .slider:before {
     height: 700px;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0px 150px;
+    padding: 0px 170px;
     background-image: url('../images/good-connected-graph.svg');
     background-repeat: no-repeat;
     background-position: 700px;
