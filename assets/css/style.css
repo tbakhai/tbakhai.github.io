@@ -350,6 +350,40 @@ input:checked + .slider:before {
     color: #1E167A
 }
 
+.how-to-step {
+    color: #E75B10;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+}
+
+.how-to-header {
+    color: #1E167A;
+    font-weight: 600;
+    font-size: 1.75rem;
+    padding-bottom: 2%
+}
+
+.how-to-description {
+    color: #0D2C48;
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+
+.wow {
+    padding-bottom: 20px;
+}
+
+.banner-text-no-background {
+    padding: 0px 250px;
+    font-size: 1.5rem;
+}
+
+.footer-description {
+    font-size: 1.25rem;
+    padding-bottom: 5px
+}
+
 @media only screen and (max-width: 1091px) {
     .banner-text-no-background {
         padding: 0px 250px 0px 250px;
@@ -459,7 +493,8 @@ input:checked + .slider:before {
     }
 
     .section-row-graph {
-        width: 750px; padding-top: 30px;
+        width: auto;
+        padding-top: 30px;
     }
 
     .bad-section {
