@@ -41,7 +41,7 @@
     -webkit-transform: translate3d(0,0,0)
 }
 
-.container-fluid{
+.container-fluid {
     height: 100%;
     width: 45%;
     margin: auto 0;
@@ -115,7 +115,6 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0px 170px;
-    height: 800px;
 }
 
 .landing-section-minor {
@@ -128,7 +127,6 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0px 170px;
-    height: 1700px;
 }
 
 .section-header {
@@ -154,6 +152,30 @@
     justify-content: space-between;
 }
 
+.section-row-how-to {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.section-row-flow-section {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-row-icon-section{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    display: flex;
+}
+
 .icon-column {
     display: flex;
     flex-direction: column;
@@ -163,13 +185,28 @@
     height: 500px;
 }
 
+
+.col-lg-6 img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.icon-column-image {
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+    margin: auto;
+}
+
 .icon-column-subtitle {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 30px;
+    text-align: center;
 }
 
-.icon-column-description {
+.icon-description {
     text-align: center;
     font-size: 1.2rem;
     padding-top: 10px;
@@ -265,4 +302,433 @@ input:checked + .slider:before {
     background-position: 700px;
     background-size: 45%;
     width: 100%;
+}
+
+.message-flow {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/message-flow.svg')
+}
+
+.graph-section-top {
+    display: flex; flex-direction: column; width: 400px; height: 600px;
+}
+
+.graph-section-middle {
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.graph-section-middle p {
+    font-size: 1.75rem;  font-weight: 500; color: #E75B10;
+}
+
+.graph-section-top h3 {
+    padding-bottom: 30px; font-size: 1.5rem; font-weight: 500;
+}
+
+.section-row-graph {
+    width: 750px; padding-top: 50px;
+}
+
+.toggle-section {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 60px;
+}
+
+.toggler {
+    font-size: 1.25rem;
+    padding-right: 10px;
+    font-weight: 600;
+    color: #1E167A
+}
+
+@media only screen and (max-width: 1091px) {
+    .banner-text-no-background {
+        padding: 0px 250px 0px 250px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        color: #1E167A;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        padding: 10px 120px 0px 120px;
+        height: 60px;
+    }
+
+    .hero {
+        padding: 0px 120px;
+        height: 500px;
+        background-size: 80%;
+    }
+
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .blue-button {
+        width: 100px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+
+    .banner {
+        height: 200px;
+        display: flex;
+    }
+
+    .banner-text {
+        padding: 30px 250px;
+        font-size: 1rem;
+        background-position: 200px 0px;
+        background-size: 20%;
+    }
+
+    .section-header {
+        font-size: 1.5rem;
+        padding: 40px 0px;
+    }
+
+    .landing-section {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 120px;
+    }
+
+    .icon-column {
+        padding: 0px 10px;
+        height: 200px;
+    }
+
+    .icon-column-image {
+        height: 50px;
+        width: 50px;
+        background-size: 100%;
+        scale: 80%;
+        margin: auto;
+    }
+
+    .section-row-icon-section{
+        height: 200px;
+        max-width: 600px;
+        padding-top: 10px;
+    }
+    
+    .icon-column-subtitle {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .icon-description {
+        font-size: 1rem;
+    }
+
+    .message-flow {
+        height: 70%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .section-row-flow-section {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .section-header-minor {
+        text-align: left;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #1E167A;
+        padding-top: 100px;
+    }
+
+    .section-row-graph {
+        width: 750px; padding-top: 30px;
+    }
+
+    .bad-section {
+        height: 500px;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 150px;
+        background-image: url('../images/bad-connected-graph.svg');
+        background-repeat: no-repeat;
+        background-position: 500px;
+        background-size: 35%;
+    }
+
+    .good-section {
+        height: 500px;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 150px;
+        background-image: url('../images/good-connected-graph.svg');
+        background-repeat: no-repeat;
+        background-position: 525px;
+        background-size: 40%;
+        width: 100%;
+    }
+
+    .graph-section-top {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .graph-section-middle {
+        padding-bottom: 15px;
+        font-size: 0.8rem;
+    }
+    
+    .graph-section-middle p {
+        font-size: 1.2rem;  font-weight: 500; color: #E75B10;
+    }
+    
+    .graph-section-top h3 {
+        padding-bottom: 30px; font-size: 1rem; font-weight: 500;
+    }
+
+    .section-row-how-to {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+
+    .col-lg-6 img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 891px) {
+    .section-header-minor {
+        font-size: 1rem;
+    }
+
+    .bad-section {
+        height: 500px;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 150px;
+        background-image: url('../images/bad-connected-graph.svg');
+        background-repeat: no-repeat;
+        background-position: 400px;
+        background-size: 30%;
+    }
+
+    .good-section {
+        height: 500px;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 150px;
+        background-image: url('../images/good-connected-graph.svg');
+        background-repeat: no-repeat;
+        background-position: 400px;
+        background-size: 35%;
+        width: 100%;
+    }
+
+    .graph-section-top {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .graph-section-middle {
+        padding-bottom: 10px;
+        font-size: 0.6rem;
+    }
+    
+    .graph-section-middle p {
+        font-size: 1rem;  font-weight: 500; color: #E75B10;
+    }
+    
+    .graph-section-top h3 {
+        padding-bottom: 15px; font-size: 0.8rem; font-weight: 500;
+    }
+
+}
+
+@media only screen and (max-width: 691px) {
+    .navbar {
+        padding: 10px 40px 0px 40px;
+        height: 60px;
+    }
+
+    .hero {
+        padding: 0px 40px;
+        background-size: 140%;
+        height: 480px;
+        margin-top: 40px;
+        background-position: top;
+    }
+
+    .container-fluid {
+        height: 100%;
+        width: 100%;
+        margin: auto 0;
+        padding-left: 0px;
+        padding-top: 80%;
+        display: flex;
+        flex-direction: column;
+        color: #1E167A;
+    }
+
+    .banner {
+        height: 125px;
+        display: flex;
+    }
+
+    .banner-text {
+        padding: 30px 50px;
+        font-size: 1rem;
+        background-position: 50px 25px;
+        background-size: 30%;
+    }
+
+    .section-header {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1E167A;
+        padding: 50px 40px 0px 40px;
+    }
+
+    .landing-section {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 40px;
+    }
+
+    .icon-column-image {
+        height: 60px;
+        width: 60px;
+        background-size: contain;
+        margin: auto;
+    }
+
+    .col-sm-4 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .icon-column-subtitle {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .icon-description {
+        text-align: center;
+        font-size: 0.8rem;
+        padding-top: 10px;
+    }
+
+    .section-row-icon-section {
+        height: 500px;    
+    }
+
+    .section-row-flow-section {
+        height: 500px;
+    }
+
+    .message-flow {
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../images/message-flow-column.svg')
+    }
+
+    .bad-section {
+        padding: 0px 40px;
+        background-repeat: no-repeat;
+        background-position: 225px 150px;
+        background-size: 70%;
+    }
+
+    .good-section {
+        padding: 0px 40px;
+        background-repeat: no-repeat;
+        background-position: 200px 150px;
+        background-size: 80%;
+    }
+
+    .graph-section-top {
+        width: 175px;
+    }
+
+    .toggle-section {
+        display: flex;
+        align-items: center;
+        height: 75px;
+        margin: 0 auto;
+        width: 200px;
+        padding-bottom: 60px;
+        justify-content: center;
+    }
+
+    .toggler {
+        font-size: 0.8rem;
+        padding-right: 10px;
+        font-weight: 600;
+        color: #1E167A
+    }
+
+    .landing-section-major {
+        padding: 0px 40px;
+    }
+
+    .how-to-step {
+        color: #E75B10;
+        font-weight: 600;
+        font-size: 1rem;
+        padding-bottom: 2%;
+    }
+
+    .how-to-header {
+        color: #1E167A;
+        font-weight: 600;
+        font-size: 1.25rem;
+        padding-bottom: 2%
+    }
+
+    .how-to-description {
+        color: #0D2C48;
+        font-size: 0.8rem;
+        padding-bottom: 15px;
+    }
+
+    .wow {
+        padding-bottom: 20px;
+    }
+
+    .banner-text-no-background {
+        padding: 0px 60px;
+        font-size: 1rem;
+    }
+
+    .footer-description {
+        font-size: 0.8rem;
+        padding-bottom: 5px
+    }
 }
