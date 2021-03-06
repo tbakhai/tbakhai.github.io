@@ -611,7 +611,6 @@ input:checked + .slider:before {
         padding: 0px 40px;
         background-size: 140%;
         height: 480px;
-        margin-top: 40px;
         background-position: top;
     }
 
