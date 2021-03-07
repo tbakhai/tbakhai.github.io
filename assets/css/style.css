@@ -109,6 +109,7 @@
     background: -webkit-linear-gradient(135deg, #1400FF, #E75B10);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .landing-section {
